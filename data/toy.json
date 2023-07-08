@@ -1,0 +1,252 @@
+// [
+//   {
+//     "name": "Talking Doll",
+//     "inStock": true,
+//     "price": 125,
+//     "labels": [
+//       "Doll",
+//       "Battery Powered",
+//       "Baby"
+//     ],
+//     "reviews": [
+//       "Good",
+//       "Nice",
+//       "Fun"
+//     ],
+//     "keyword": "doll toy",
+//     "image": " https://www.johnadams.co.uk/wp-content/uploads/2016/07/Tiny_Tears_Interactive_3D_Box.png",
+//     "createdAt": 1678802952075
+//   },
+//   {
+//     "name": "Ball",
+//     "inStock": true,
+//     "price": 50,
+//     "labels": [
+//       "Outdoor",
+//       "Baby"
+//     ],
+//     "reviews": [
+//       "Amazing!"
+//     ],
+//     "keyword": "pool ball colorful",
+//     "image": "https://www.petfoodnmore.com/wp-content/uploads/Kaytee/Kaytee-Run-About-Ball-Assorted-Medium-lg.png",
+//     "createdAt": 1678801513216
+//   },
+//   {
+//     "name": "Playing Cards",
+//     "inStock": true,
+//     "price": 30,
+//     "labels": [
+//       "Box game"
+//     ],
+//     "reviews": [
+//       "Wow",
+//       "Nice",
+//       "Awesome"
+//     ],
+//     "keyword": "cards deck playing",
+//     "image": "https://cdn.shopify.com/s/files/1/0150/0643/3380/products/SB-POD_DC-09_grande.png?v=1617395765",
+//     "createdAt": 1678801053464
+//   },
+//   {
+//     "name": "Doll house",
+//     "inStock": true,
+//     "price": 260,
+//     "labels": [
+//       "Doll"
+//     ],
+//     "reviews": [
+//       "My daughter likes it",
+//       "Broken piece"
+//     ],
+//     "keyword": "dollhouse",
+//     "image": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/14b64b63-ffe0-458a-bcc1-bc0130d53168/d80od6s-899ae2eb-6393-46b3-9634-56c116fee16f.png",
+//     "createdAt": 1631031801011
+//   },
+//   {
+//     "name": "Firefighter Truck",
+//     "inStock": true,
+//     "price": 140,
+//     "labels": [
+//       "Battery Powered",
+//       "Baby"
+//     ],
+//     "reviews": [
+//       "Got this as a gift for my nephew, loved it",
+//       "Haha James plays with it all day!"
+//     ],
+//     "keyword": "truck toy",
+//     "image": "https://i.ebayimg.com/images/g/cp4AAOSwZdBfYK7e/s-l500.png",
+//     "createdAt": 1631031801011
+//   },
+//   {
+//     "name": "RainboCorns",
+//     "inStock": true,
+//     "price": 100,
+//     "labels": [
+//       "Doll",
+//       "Baby"
+//     ],
+//     "reviews": [
+//       "All kids love these",
+//       "Useless but ok"
+//     ],
+//     "keyword": "toy egg unicorn",
+//     "image": "https://i5.walmartimages.com/asr/ed9c940f-0ef0-4c58-8023-8315e817a612_5.dbac582e879f29077527c583aa1e08a6.png",
+//     "createdAt": 1631031801011
+//   },
+//   {
+//     "name": "Garden Tools Set",
+//     "inStock": true,
+//     "price": 80,
+//     "labels": [
+//     "Outdoor"
+//     ],
+//     "reviews": [
+//     "Sturdy and practical",
+//     "Perfect for gardening enthusiasts"
+//     ],
+//     "keyword": "gardening tools set",
+//     "image": "https://www.pngkit.com/png/full/76-763054_abc-blocks-java-fundamental-classes-reference-book.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//     "name": "Wooden Blocks",
+//     "inStock": true,
+//     "price": 35,
+//     "labels": [
+//     "Puzzle",
+//     "Box game"
+//     ],
+//     "reviews": [
+//     "Great for building creativity",
+//     "Excellent quality"
+//     ],
+//     "keyword": "wooden blocks puzzle",
+//     "image": "https://preschoolequipment.com.au/wp-content/uploads/2021/08/10.2199-Building-Blocks-Web.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//     "name": "Art Set",
+//     "inStock": true,
+//     "price": 60,
+//     "labels": [
+//     "Art"
+//     ],
+//     "reviews": [
+//     "Fantastic for budding artists",
+//     "A wide range of colours to choose from"
+//     ],
+//     "keyword": "art supplies",
+//     "image": "https://www.pngkey.com/png/full/207-2074220_royal-langnickel-art-adventure-120-piece-art-set.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//     "name": "Remote Control Car",
+//     "inStock": true,
+//     "price": 90,
+//     "labels": [
+//     "Battery Powered",
+//     "Outdoor"
+//     ],
+//     "reviews": [
+//     "Hours of entertainment",
+//     "Fast and responsive controls"
+//     ],
+//     "keyword": "remote control car",
+//     "image": "https://www.nicepng.com/png/full/955-9554437_night-crusader-voice-changer-batmobile-batman-remote-control.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//     "name": "Care Bears",
+//     "inStock": true,
+//     "price": 25,
+//     "labels": [
+//     "Baby"
+//     ],
+//     "reviews": [
+//     "Soft and cuddly",
+//     "Great for naptime"
+//     ],
+//     "keyword": "stuffed animal toy",
+//     "image": "https://www.carebears.com/wp-content/uploads/2021/05/basicfun_plush-2-copy-1.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//     "name": "Chess Set",
+//     "inStock": true,
+//     "price": 50,
+//     "labels": [
+//     "Box game"
+//     ],
+//     "reviews": [
+//     "Classic game with beautiful pieces",
+//     "Perfect for game night"
+//     ],
+//     "keyword": "chess set game",
+//     "image": "https://assets.stickpng.com/images/580b585b2edbce24c47b27aa.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//     "name": "Baby Swing",
+//     "inStock": true,
+//     "price": 150,
+//     "labels": [
+//     "Baby",
+//     "Outdoor"
+//     ],
+//     "reviews": [
+//     "Soothing and calming for babies",
+//     "Easy to assemble and use"
+//     ],
+//     "keyword": "baby swing",
+//     "image": "https://sc04.alicdn.com/kf/H931e1a15236d43d88cc269ec8b162c98M.png",
+//     "createdAt": 1678802952075
+//     },
+//     {
+//       "name": "Barbie Dreamhouse",
+//       "inStock": true,
+//       "price": 300,
+//       "labels": [
+//       "Doll"
+//       ],
+//       "reviews": [
+//       "Every girl's dream",
+//       "Hours of imaginative play"
+//       ],
+//       "keyword": "barbie dreamhouse",
+//       "image": "https://i5.walmartimages.com/asr/63f4f589-08e2-4ebb-8324-f7e3835c723c.ba82c96a8648212537a276c21f95a4d1.png",
+//       "createdAt": 1678802952075
+//       },
+//       {
+//       "name": "Bratz Fashion Designer",
+//       "inStock": true,
+//       "price": 40,
+//       "labels": [
+//       "Doll",
+//       "Art"
+//       ],
+//       "reviews": [
+//       "Great for creative kids",
+//       "Fashionable and fun"
+//       ],
+//       "keyword": "bratz fashion designer",
+//       "image": "https://cdn.shopify.com/s/files/1/0074/6343/6401/products/57_76091efd-26d7-4bc1-a828-9810c7842f7a.png?v=1648521241",
+//       "createdAt": 1678802952075
+//       }
+// ]
+
+
+// [{
+// "fullname": "rania ki",
+// "username": "rania",
+// "password": 1234,
+// "isAdmin": true
+// },
+// {
+//     "fullname": "puki ja",
+//     "username": "puki",
+//     "password": 1234,
+//     "isAdmin": false
+//     }
+// ]
