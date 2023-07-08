@@ -11,8 +11,14 @@ app.use(cookieParser());
 app.use(express.json());
 app.use(express.static('public'));
 
-// Configuring CORS
-app.use(cors());
+const corsOptions = {
+  origin: [
+    'https://mistertoy-frontend.onrender.com',
+  ],
+  credentials: true,
+}
+
+app.use(cors(corsOptions));
 
 // Routes
 const authRoutes = require('./api/auth/auth.routes');
