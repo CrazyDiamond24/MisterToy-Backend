@@ -23,6 +23,8 @@ if (process.env.NODE_ENV === 'production') {
       'http://localhost:5173',
       'http://127.0.0.1:3000',
       'http://localhost:3000',
+      'https://mistertoy-frontend.onrender.com',
+      'https://mistertoy-backend.onrender.com'
     ],
     credentials: true,
   }
